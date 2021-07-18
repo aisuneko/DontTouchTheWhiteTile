@@ -6,5 +6,6 @@ actually a demostration of QPainter.
 4 keys, supports dual notes
 ## Controls
 D, F, J, K - note keys
+
 Q - restart
 
