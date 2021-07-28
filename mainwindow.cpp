@@ -72,9 +72,9 @@ void MainWindow::keyPressEvent(QKeyEvent *event) {
                 if (noteInLevels[index] == 0) {
                     ++index;
                     if (index == beatmap.size())
-                        message = tr("Congrats! ") +
+                        message = tr("Congrats! | ") +
                                   QString::number(timer->elapsed() / 1000.0) +
-                                  tr("s elapsed.");
+                                  tr("s");
                 }
             } else {
                 message = tr("You failed...");
